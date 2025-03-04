@@ -1,0 +1,132 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", serif;
+}
+header{
+    z-index: 1000;
+}
+.whatsaap-btn{
+    padding: 10px 18px;
+    background-color: white;
+    color: #27AE60;
+    border: 1px solid #27AE60;
+    border-radius: 8px;
+}
+.whatsaap-btn i{
+    font-size: 1.2rem;
+}
+.call-btn{
+    padding: 10px 18px;
+    background:linear-gradient(to right,#0ACEFE,#2699FB);
+    color: white;
+    border:none;
+    border-radius: 8px;
+}
+.bannerContent h1{
+    font-size: 52px;
+    font-weight: 700;
+}
+.bannerContent h1 span{
+    color: #2699FB;
+    background: url("./Vector\ 63.svg") no-repeat bottom;
+}
+.bannerContent p{
+font-weight: 400;
+font-size: 22px;
+line-height: 35px;
+
+}
+.bannerContent ul i{
+    color: #2699FB;
+}
+.buttonDiv button{
+    border-radius: 8px;
+}
+.bookbtn{
+    padding: 16px 68px;
+    min-width: fit-content;
+    border: none;
+   background: linear-gradient(to right,#0ACEFE,#2699FB);
+}
+.registerbtn{
+padding: 15px 48px;
+ min-width: fit-content;
+ border: none;
+background: linear-gradient(to right,#0ACEFE,#2699FB);
+}
+.Downloadbtn{
+ min-width: fit-content;
+border: 1px solid;
+padding: 16px 48px;
+}
+.Downloadbtn i{
+    padding-right: 10px;
+}
+.bannerForm form{
+    padding: 40px;
+    border-radius: 10px;
+}
+.numspan{
+    color: #2699FB;
+}
+.highlights{
+    background-color: #F7FAFF;
+}
+.tab-content ul li{
+    list-style: none; /* Remove default bullet */
+   position: relative;
+   padding-left: 25px; 
+}
+
+.tab-content ul li::before {
+    content: "\f058"; /* Unicode for Font Awesome check-circle */
+    font-family: "Font Awesome 6 Free"; /* Ensure Font Awesome is used */
+    font-weight: 900; /* Required for solid icons */
+    color: skyblue; /* Change icon color */
+    position: absolute;
+    left: 0;
+    top: 2px;
+ 
+  }
+  .tab-container ul button {
+    color: black;
+}
+.tab-container .nav-pills .nav-link.active{
+    border-radius: 0px;
+    background-color: #F2F4F7;
+    color:black;
+    border-bottom: 2px solid #2699FB;
+}
+  .tab-container {
+    white-space: nowrap;
+    scroll-behavior: smooth; /* Smooth scrolling */
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none; 
+}
+
+.tab-container::-webkit-scrollbar {
+    height: 8px; 
+   
+  }
+
+  .tab-container::-webkit-scrollbar-thumb {
+    background: #ccc; /* Scrollbar color */
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .tab-container::-webkit-scrollbar-track {
+    background: transparent;
+  
+  }
+
+/* Tabs should not shrink and maintain width */
+.tab-container .nav-item{
+    flex-shrink: 0;
+}
+
+.custom-tooltip{
+    --bs-tooltip-bg: #4292c1;
+  --bs-tooltip-color: #fff;
+}

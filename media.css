@@ -1,0 +1,54 @@
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1170px;
+    }
+}
+@media only screen and (min-width:200px) and (max-width:575px){
+    .whatsaap-btn i{
+        font-size: 1rem;
+    }
+
+    .btn-outer{
+        position:fixed;
+        bottom: 0px;
+        left: 0px;
+    }
+    .call-btn{
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    .whatsaap-btn {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    .bannerContent h1{
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 35px;     
+    }
+    .bannerContent p{
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    .bookbtn{
+        padding: 8px 48px;
+    }
+    .Downloadbtn{
+    padding: 8px 48px;
+    }
+    .registerbtn{
+        padding: 4px 48px;
+    }
+    .bannerForm form input{
+        padding: 4px !important;
+    }
+    .bannerForm form{
+        padding: 20px;
+    }
+    .tab-content ul{
+        padding: 0px;
+    }
+
+}
+
+
